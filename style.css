@@ -992,6 +992,35 @@ footer p {
   margin-bottom: 40px;
 }
 
+.nav-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  /* margin-bottom: 40px; */
+  font-size: 1.8rem;
+  color: white;
+  backdrop-filter: blur(5px);
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.nav-icons a {
+  color: rgb(232, 199, 245);
+  /* background: linear-gradient(45deg, #00dbde, #fc00ff);
+  border: 1px solid rgba(76, 201, 240, 0.4);
+  width: 40px;
+  height: 40px; */
+  border-radius: 9999px;
+  text-align: center;
+}
+
+/* .nav-icons a:hover {
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 10px 25px rgba(76, 201, 240, 0.4);
+  border-color: transparent;
+} */
+
 .footer-social-links a {
   width: 60px;
   height: 60px;
